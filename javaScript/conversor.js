@@ -1,9 +1,12 @@
 function converteTemperaturas() {
+	var valorDigitado = document.getElementById("valor").value;
 	var conversoes = document.getElementById("conversoes");
 	var conversaoSelecionada = document.getElementsByTagName("option");
 	for (var i = 0; i < conversoes.length; i++) {
 		if (conversaoSelecionada[i].value == "fahrenheitParaCelsius") {
-			alert("Escolheu!!");
+			
+		} else if (conversaoSelecionada[i].value == "fahrenheitParakelvin") {
+
 		}
 	}
 }

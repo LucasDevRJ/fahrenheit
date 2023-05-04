@@ -1,12 +1,13 @@
 .caixa {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	height: 600px;
 }
 
 .imagem-fundo {
 	height: 600px;
-	width: 100%;
+	width: 77%;
 	background-image: url("../imagens/temperatura.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,4 +16,5 @@
 .conversor {
 	display: flex;
 	flex-direction: column;
+	margin-right: 30px;
 }

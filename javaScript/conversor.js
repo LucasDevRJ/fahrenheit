@@ -13,16 +13,18 @@ function converteTemperaturas() {
 			} else if (conversaoSelecionada[i].value == "fahrenheitParakelvin") {
 				valorConvertido = (valorDigitado - 32) * 5 / 9 + 273.15;
 				console.log(valorConvertido);
-			} else if (conversaoSelecionada[i].value == "fahrenheitParakelvin") {
-
 			} else if (conversaoSelecionada[i].value == "celsiusParaFahrenheit") {
-
+				valorConvertido = valorDigitado * 9 / 5 + 32;
+				console.log(valorConvertido);
 			} else if (conversaoSelecionada[i].value == "celsiusParaKelvin") {
-
+				valorConvertido = valorDigitado + 273.15;
+				console.log(valorConvertido);
 			} else if (conversaoSelecionada[i].value == "kelvinParaFahrenheit") {
-
+				valorConvertido = valorDigitado + 273.15;
+				console.log(valorConvertido);
 			} else if (conversaoSelecionada[i].value == "kelvinParaCelsius") {
-
+				valorConvertido = valorDigitado - 273.15;
+				console.log(valorConvertido);
 			} 
 		}
 	}

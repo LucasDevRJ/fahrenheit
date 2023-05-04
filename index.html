@@ -6,27 +6,28 @@
 	<title>Fahrenheit</title>
 </head>
 <body>
-	<label>Digite o valor:</label>
-	<input type="text" id="valor">
+	<div class="caixa">
+		<label>Digite o valor:</label>
+		<input type="text" id="valor">
 
-	<select id="conversoes">
-		<option value="fahrenheitParaCelsius">Fahrenheit para Celsius</option>
+		<select id="conversoes">
+			<option value="fahrenheitParaCelsius">Fahrenheit para Celsius</option>
 
-		<option value="fahrenheitParakelvin">Fahrenheit para Kelvin</option>
+			<option value="fahrenheitParakelvin">Fahrenheit para Kelvin</option>
 
-		<option value="celsiusParaFahrenheit">Celsius para Fahrenheit</option>
+			<option value="celsiusParaFahrenheit">Celsius para Fahrenheit</option>
 
-		<option value="celsiusParaKelvin">Celsius para Kelvin</option>
+			<option value="celsiusParaKelvin">Celsius para Kelvin</option>
 
-		<option value="kelvinParaFahrenheit">Kelvin para Fahrenheit</option>
+			<option value="kelvinParaFahrenheit">Kelvin para Fahrenheit</option>
 
-		<option value="kelvinParaCelsius">Kelvin para Celsius</option>
-	</select>
-	
-	<button>Converter</button>
+			<option value="kelvinParaCelsius">Kelvin para Celsius</option>
+		</select>
+		
+		<button>Converter</button>
 
-	<p id="resposta-conversao"></p>
-
+		<p id="resposta-conversao"></p>
+	</div>
 	<script src="javaScript/conversor.js"></script>
 </body>
 </html>

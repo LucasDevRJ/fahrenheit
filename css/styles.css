@@ -1,3 +1,9 @@
+body {
+	background-image: url("../imagens/temperatura.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .caixa {
 	display: flex;
 	align-items: center;
@@ -5,14 +11,9 @@
 	height: 600px;
 }
 
-body {
-	background-image: url("../imagens/temperatura.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 .conversor {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 10px;
 }

@@ -9,6 +9,7 @@ function converteTemperaturas() {
 	} else if (isNaN(valorDigitado)) {
 		alert("Digite somente números!");
 	} else {
+		valorDigitado = parseFloat(valorDigitado);
 		var valorConvertido;
 
 		for (var i = 0; i < conversoes.length; i++) {
@@ -26,7 +27,7 @@ function converteTemperaturas() {
 					valorConvertido = valorDigitado + 273.15;
 					resposta.innerHTML = valorConvertido.toFixed(2) + "K";
 				} else if (conversaoSelecionada[i].value == "kelvinParaFahrenheit") {
-					valorConvertido = valorDigitado + 273.15;
+					valorConvertido = (valorDigitado - 273.15) * 9 / 5 + 32;
 					resposta.innerHTML = valorConvertido.toFixed(2) + "°F";
 				} else if (conversaoSelecionada[i].value == "kelvinParaCelsius") {
 					valorConvertido = valorDigitado - 273.15;
